@@ -8,6 +8,8 @@ i made this
 
 
 
+
+than this!
 require_once 'modules/BookingSystemSMS.php';
 require_once 'postTypes/BookingPostType.php';
 require_once 'modules/BookingSystemOptionsModule.php';
