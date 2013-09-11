@@ -4,11 +4,11 @@ if (!function_exists('is_admin')) {
     header('HTTP/1.1 403 Forbidden');
     exit();
 }
-i made this
 
 
 
 
+this was made local:
 than this!
 require_once 'modules/BookingSystemSMS.php';
 require_once 'postTypes/BookingPostType.php';
