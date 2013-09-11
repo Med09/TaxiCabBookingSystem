@@ -1,0 +1,49 @@
+body.login {
+ background: url('lbg.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+input.button-primary,
+button.button-primary,
+a.button-primary {
+background: url("../images/button-grad.png") repeat-x scroll left top #21759B;
+border-color: #298CBA;
+color: #FFFFFF;
+font-weight: bold;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+#login_error {display:none;}
+
+#backtoblog {display:none;}
+body.login div#login {}
+body.login div#login h1 {}
+body.login div#login h1 a {width:100%;}
+body.login div#login form#loginform {
+	
+	-webkit-box-shadow: 0px 1px 15px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 1px 15px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 1px 15px rgba(50, 50, 50, 0.75);
+		-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {}
+body.login div#login p#nav {}
+body.login div#login p#nav a {}
+body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog a {}
+/**custom edits **/
+
+.description, #pass-strength-result {display:none !important;}

@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; }
+.ui-timepicker-rtl dl dd { margin: 0 65px 10px 10px; }
+#map {height:500px !important}
+html, body { height: 100%; }
+
+.alert { border:1px solid red !important;}
+
+input.datepicker {background-color:white !important; cursor:text;}
+select {background-color:white;}
+#facebookG{
+width:30px;
+display:none;
+position:absolute;
+margin-top:3px;
+margin-left:40px;
+}
+
+.facebook_blockG{
+background-color:#FFFFFF;
+border:1px solid #000000;
+float:left;
+height:15px;
+margin-left:1px;
+width:6px;
+opacity:0.1;
+-moz-animation-name:bounceG;
+-moz-animation-duration:2.2s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+-moz-transform:scale(0.7);
+-webkit-animation-name:bounceG;
+-webkit-animation-duration:2.2s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-webkit-transform:scale(0.7);
+-ms-animation-name:bounceG;
+-ms-animation-duration:2.2s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+-ms-transform:scale(0.7);
+-o-animation-name:bounceG;
+-o-animation-duration:2.2s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+-o-transform:scale(0.7);
+animation-name:bounceG;
+animation-duration:2.2s;
+animation-iteration-count:infinite;
+animation-direction:linear;
+transform:scale(0.7);
+}
+
+#blockG_1{
+-moz-animation-delay:0.66s;
+-webkit-animation-delay:0.66s;
+-ms-animation-delay:0.66s;
+-o-animation-delay:0.66s;
+animation-delay:0.66s;
+}
+
+#blockG_2{
+-moz-animation-delay:0.8800000000000001s;
+-webkit-animation-delay:0.8800000000000001s;
+-ms-animation-delay:0.8800000000000001s;
+-o-animation-delay:0.8800000000000001s;
+animation-delay:0.8800000000000001s;
+}
+
+#blockG_3{
+-moz-animation-delay:1.1s;
+-webkit-animation-delay:1.1s;
+-ms-animation-delay:1.1s;
+-o-animation-delay:1.1s;
+animation-delay:1.1s;
+}
+
+@-moz-keyframes bounceG{
+0%{
+-moz-transform:scale(1.2);
+opacity:1}
+
+100%{
+-moz-transform:scale(0.7);
+opacity:0.1}
+
+}
+
+@-webkit-keyframes bounceG{
+0%{
+-webkit-transform:scale(1.2);
+opacity:1}
+
+100%{
+-webkit-transform:scale(0.7);
+opacity:0.1}
+
+}
+
+@-ms-keyframes bounceG{
+0%{
+-ms-transform:scale(1.2);
+opacity:1}
+
+100%{
+-ms-transform:scale(0.7);
+opacity:0.1}
+
+}
+
+@-o-keyframes bounceG{
+0%{
+-o-transform:scale(1.2);
+opacity:1}
+
+100%{
+-o-transform:scale(0.7);
+opacity:0.1}
+
+}
+
+@keyframes bounceG{
+0%{
+transform:scale(1.2);
+opacity:1}
+
+100%{
+transform:scale(0.7);
+opacity:0.1}
+
+}
+
+
+ .prepay label {display:block !important;}
+#login_error {display:none;}
+
+#lean_overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+.booking-modal {
+	display:none; 
+	background-color:white; 
+	padding:10px;
+	width:440px; 
+	-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+
+
+}
+.booking-contact td{margin:0px; padding:0px;}
+.payment table {display:hidden !important}
+.booking-modal .response { width:100%; margin-top:10px;}
+.booking-modal .response pre { width:100%; height:auto;  margin:0px; padding:0px}
+.booking-modal table {width:100%;}
+select[name="vehicle"]  { display:block;}
+select[name="payment_type"]  {display:block;}
+
+div#prepay form label, div#prepay form select, div#prepay form input { display: block}
+
+  form#bookingconfirm table{margin:0 !important}
+  form table tr td{margin:0px !important; border:0}
+  form#bookingconfirm table input{margin:0 !important;}
+  form#bookingconfirm table select{margin:auto 0 !important}
+  form#bookingconfirm td{border-top:0 !important; padding:0 !important}
+  .contentarea table{margin:0 !important}
+  form#bookingconfirm .btn{margin-top:10px !important;}
+  #booking_events select {width:100%;}
+  #bookingconfirm table {border-bottom:0px;}
+  #bookingconfirm table tr td input {width:470px;}
+  
+.form_input_one_inline input {
+	width: 90%;
+}
+
+.form_input_two_inline input{
+	display:block;
+	width:100%;
+
+}
+
+.form_input_two_inline{
+	width: 100%;
+}
+
+.form_input_left_input{
+	float: left;
+	display:block;
+	width:50%;
+} 
+.form_input_left_input input {
+	width: 80%
+}
+
+.form_input_left_input select{
+	width: 85%;
+}
+
+.form_input_right_input{
+	float:right;
+	display:block;
+	width:50%;
+}
+
+.form_input_right_input input {
+	width:80%;
+
+}
+
+.form_input_right_input select{
+	width: 85%;
+}
+
